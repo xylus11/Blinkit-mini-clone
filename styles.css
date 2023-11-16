@@ -1,0 +1,155 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+ 
+:root{
+    margin-top:0px ;
+   padding: 0px;
+   overflow-y: scroll;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.nav-delivery{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.nav-delivery>h5{
+    font-weight: 780;
+    font-size:18px;
+}
+.nav-delivery>p{
+    font-size:13px ;
+}
+.nav-search-bar{
+    padding-inline: 10px;
+    background-color: #f8f8f8;
+   border-radius: 10px;
+   border: 1px solid #f2f2f2;
+   justify-content: center;
+}
+
+.nav-search-bar>input{
+    width: 42.5vw;
+    height: 45px;
+    border:none;
+    background-color: transparent;
+ 
+}
+.bord{
+    border-right: 1px solid #f2f2f2;
+    padding: 25px;
+
+}
+.vertical-line{
+    border-left: 1px solid #f2f2f2;
+    height: 75px;
+}
+#btn{
+    border:none;
+  background-color: transparent;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 17px;
+}
+.cart{
+   padding:15px 8px 15px 8px;
+   width: 7rem;
+   font-size: 15px;
+    background-color: rgb(12,131,31);
+    border-radius: 10px;
+    font-weight: 700;
+    color:white;
+   text-align: center;
+   margin-right: 30px;
+
+}
+section{
+    padding-inline:7.8vw;
+}
+
+.hero-section>img{
+   width: 100%;
+   height: 32.5vh; 
+}
+
+
+.section-2{    
+display: flex;
+flex-wrap: nowrap;
+overflow-x: scroll;
+
+}
+.section-2::-webkit-scrollbar{
+    display:none ;
+}
+.section-2>img{
+    height: 220px; 
+    padding: 10px;
+    border: none;
+    border-radius:18px;
+}
+.section-3{
+    width: 90vw;
+    display:flex;
+    flex-wrap: wrap;
+}
+.section-3>img{
+    width:8rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.front{
+  
+
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 5px  #d0d0d0 ;
+
+}
+.front>img{
+    width:150px;
+}
+.front>.minutes{
+    font-size: 10px;
+    margin: 0px;
+}
+.front>.grams{
+    font-size: 12px;
+    margin: 0px;
+}
+.blobs{
+    gap:10px;
+    overflow-x: scroll; 
+ 
+}
+.blobs::-webkit-scrollbar{
+    display: none;
+}
+
+.tables{
+    padding-inline: 6.8vw;
+    display: flex;
+    flex-direction: row;
+    margin-top:80px 
+}
+.tb1{
+    flex:2;
+}
+.tb2{
+    flex: 4;
+
+}
+td{
+   width: 250px;
+}
